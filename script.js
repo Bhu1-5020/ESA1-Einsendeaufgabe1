@@ -6,10 +6,14 @@ var menu = [
     { name: "Macchiato", price: 6.99, category: "coffee" },
     { name: "Cheesecake", price: 7.50, category: "dessert" },
     { name: "Brownie", price: 4.50, category: "dessert" },
+    { name: "Apple pie", price: 8.50, category: "dessert" },
     { name: "Strawberry", price: 6.50, category: "dessert" },
-    { name: "Green-tea", price: 4.50, category: "tea" },
-    { name: "Black-tea", price: 4.50, category: "tea" },
-    { name: "Lemon-tea", price: 4.50, category: "tea" }
+    { name: "Tiramisu", price: 5.50, category: "dessert" },
+    { name: "Green tea", price: 4.50, category: "tea" },
+    { name: "Black tea", price: 4.50, category: "tea" },
+    { name: "Lemon tea", price: 4.50, category: "tea" },
+    { name: "Grey tea", price: 4.50, category: "tea" },
+    { name: "Mini tea", price: 4.50, category: "tea" }
 ];
 function listOfMenu(category) {
     var ul = document.getElementById(category);
