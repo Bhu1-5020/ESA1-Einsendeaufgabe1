@@ -36,3 +36,23 @@ function listOfMenu(category: "tea" | "coffee" | "dessert"): Menu []{
 listOfMenu("coffee");
 listOfMenu("dessert");
 listOfMenu("tea");
+
+function greetingMessage(time: number) : string{
+    let text: string = "" ; 
+    if(time < 12){
+        text = "Good morning welcome to .." ; 
+    }else if(time < 18){
+        text = "Good afternoon welcome to..";
+    }else{
+        text = "Good Evening " ; 
+    }
+    const greeting = document.getElementById("greeting");
+    if(greeting){
+        greeting.textContent = `${text}`;
+    }
+    return text ;
+}
+
+const local = new Date();
+const currentHour = local.getHours();
+greetingMessage(currentHour);

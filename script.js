@@ -26,3 +26,23 @@ function listOfMenu(category) {
 listOfMenu("coffee");
 listOfMenu("dessert");
 listOfMenu("tea");
+function greetingMessage(time) {
+    var text = "";
+    if (time < 12) {
+        text = "Good morning welcome to ..";
+    }
+    else if (time < 18) {
+        text = "Good afternoon welcome to..";
+    }
+    else {
+        text = "Good Evening ";
+    }
+    var greeting = document.getElementById("greeting");
+    if (greeting) {
+        greeting.textContent = "".concat(text);
+    }
+    return text;
+}
+var local = new Date();
+var currentHour = local.getHours();
+greetingMessage(currentHour);
