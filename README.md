@@ -7,7 +7,7 @@ Frontend Development course at FernFH
 
 - HTML
 - Tailwind Css
-- TypeScrip
+- TypeScript
 - Git
 
 ## Features
@@ -17,13 +17,15 @@ Frontend Development course at FernFH
 
 ## How to run
 
-### clone the repository
-
 ```bash
+# clone the repository
 git clone <repository url>
 # open the project folder
 cd <project folder>
+# install TypeScript compiler
 npm install -g typescript
+# check the version
 tsc -v
+# compile TypeScript
 tsc script.ts --watch
 ```
