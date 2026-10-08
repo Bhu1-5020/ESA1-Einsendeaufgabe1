@@ -1,0 +1,21 @@
+Frage 1 : Welches Thema haben Sie gewählt und warum ? 
+Antwort : Für diese Aufgabe habe ich eine Webseite für ein kaffee bar erstellt.
+Auf dieser Webseite kann man Informationen über die verschiedenen Getränke 
+und die Öffnungszeiten finden.Ich habe dieses Thema gewählt, weil ich ein
+Kaffee lover bin. Während ich die Aufgabenstellung gelesen habe, habe 
+ich gerade Kaffee getrunken. Da habe ich mir gedacht: Warum nicht eine 
+Webseite über ein kaffee bar erstellen. 
+
+Frage 2 : Welche technische Entscheidung war für Sie die schwierigste und wie haben Sie sie gelöst ? 
+Antwort : Für mich war die Arbeit mit TypeScript und der DOM-Manipulation am schwierigsten. Bei getElementById() 
+habe ich gelernt, dass ein Element auch null sein kann. Deshalb musste ich zuerst prüfen, ob das Element existiert, 
+bevor ich damit weiterarbeite.
+Eine weitere Herausforderung war die Erstellung der Menüliste. Ich wollte die Getränkenach Kategorien anzeigen.
+Dafür habe ich in TypeScript einen Union Type für die Kategorien verwendet.Außerdem musste ich lernen, dass 
+TypeScript zuerst mit dem TypeScript-Compiler in JavaScript kompiliert werden muss.Dafür habe ich
+tsc script.ts --watch verwendet, damit Änderungen automatisch neu kompiliert werden.
+
+Frage 3 : Welche Ressourcen und AI-Tools haben Sie wie eingesetzt?
+Antwort : - Microsoft Copilot: Übersetzung, Textkorrektur, Debugging sowie Unterstützung bei Tailwind CSS Layout und Styling.
+          - Modul 02 – JavaScript & TypeScript: Lernunterlagen und Beispiele.
+          - TypeScript Greek for Greeks: zum besseren Verständnis von TypeScript.
